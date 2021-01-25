@@ -1,1 +1,11 @@
 <title>{{site.title}}</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family={{site.display-font | cgi_escape}}&family={{site.content-font | cgi_escape}}&display=swap" rel="stylesheet">
+<style>
+    * {
+        font-family: '{{site.display-font}}', sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: '{{site.display-font}}'!important;
+    }
+</style>

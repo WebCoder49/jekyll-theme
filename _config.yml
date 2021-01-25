@@ -1,1 +1,5 @@
 title: "Jekyll Theme"
+
+# Choose fonts from Google Fonts and paste their names here, being mindful of capitals.
+display-font: "Gorditas"
+content-font: "Fira Mono"
